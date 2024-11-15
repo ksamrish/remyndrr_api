@@ -10,10 +10,7 @@ app.get('/', (req, res) => {
     res.json('Welcome to the Express API!');
 });
 
-// Example route for API
-app.get('/api/example', (req, res) => {
-    res.json({ message: 'Hello from the example endpoint!' });
-});
+
 
 // Start the server
 app.listen(PORT, () => {
